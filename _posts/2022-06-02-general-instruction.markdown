@@ -26,6 +26,8 @@ for certain purposes.
 
 Here are some examples:
 
+<img src="{{ "docs/assets/images/reservedparam1.jpg" | prepend: site.baseurl | prepend: site.url}}" alt="zigzag" />
+
 ![](docs/assets/images/reservedparam1.jpg)
 *Reserved Parameters (Fig 1)*
 
