@@ -26,11 +26,11 @@ for certain purposes.
 
 Here are some examples:
 
-<img src="{{ "docs/assets/images/reservedparam1.jpg" | prepend: site.baseurl | prepend: site.url}}" alt="zigzag" />
+<img src="{{ "docs/assets/images/reservedparam1.jpg" | prepend: site.baseurl | prepend: site.url}}" alt="Reserved Parameters" />
 
-![](docs/assets/images/reservedparam1.jpg)
 *Reserved Parameters (Fig 1)*
 
 
-![](docs/assets/images/reservedparam2.jpg)
+<img src="{{ "docs/assets/images/reservedparam2.jpg" | prepend: site.baseurl | prepend: site.url}}" alt="Reserved Parameters" />
+
 *Reserved Parameters (Fig 2)*
