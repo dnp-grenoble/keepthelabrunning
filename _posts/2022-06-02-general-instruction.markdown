@@ -19,3 +19,13 @@ author: "Subhradip Paul"
 <span style="color:red"> Please do not modify the LAB sequences without asking Paul or Sabine </span>.
 
 <span style="color:red"> Make a copy of the sequence if you intend to modify something </span>.
+
+
+In these sequences some parameters are kept reserved
+for certain purposes.
+
+Here are some examples:
+
+![Reserved Parameters](/assets/pictures/reserved-param-1.jpg)
+
+![Reserved Parameters](/assets/pictures/reserved-param-2.jpg)
