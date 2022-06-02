@@ -26,9 +26,9 @@ for certain purposes.
 
 Here are some examples:
 
-![Reserved Parameters](https://github.com/dnp-grenoble/keepthelabrunning/blob/c2a618504c8e1f30498c8778c1eb346969e424d0/docs/assets/images/reservedparam1.jpg)
+![](/docs/assets/images/reservedparam1.jpg)
 *Reserved Parameters (Fig 1)*
 
 
-![Reserved Parameters](https://github.com/dnp-grenoble/keepthelabrunning/blob/c2a618504c8e1f30498c8778c1eb346969e424d0/docs/assets/images/reservedparam2.jpg)
+![](/docs/assets/images/reservedparam2.jpg)
 *Reserved Parameters (Fig 2)*

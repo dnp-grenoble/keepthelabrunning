@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   or to sort out issues in the lab. They might help you and prevent you from running around 
   like a headless chicken.
   Please give feedbacks and how to improve the website.
-baseurl: "keepthelabrunning" # the subpath of your site, e.g. /blog
+baseurl: "/keepthelabrunning" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  dnp-grenoble
 
