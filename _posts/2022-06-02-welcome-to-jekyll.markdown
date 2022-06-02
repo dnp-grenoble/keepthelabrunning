@@ -6,7 +6,7 @@ categories: jekyll update
 author: "Subhradip Paul"
 ---
 
-* Some instructions about LAB Sequences *
+**Some instructions about LAB Sequences**
 
 - LAB sequences are tested, perfectly working and optimized​
 - The header of the file contains a short description​
