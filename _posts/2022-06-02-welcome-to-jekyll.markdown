@@ -7,6 +7,7 @@ author: "Subhradip Paul"
 ---
 
 > Some instructions about LAB Sequences
+
 - LAB sequences are tested, perfectly working and optimized​
 - The header of the file contains a short description​
 - All parameters are properly defined​
