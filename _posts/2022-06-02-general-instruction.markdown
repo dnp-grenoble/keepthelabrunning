@@ -26,6 +26,6 @@ for certain purposes.
 
 Here are some examples:
 
-![Reserved Parameters](/assets/images/reservedparam1.jpg)
+![Reserved Parameters](https://github.com/dnp-grenoble/keepthelabrunning/blob/9f50c8f2bf89b0cd2a814d11f3fc5034571e30bd/assets/images/reservedparam1.jpg)
 
-![Reserved Parameters](/assets/images/reservedparam2.jpg)
+![Reserved Parameters](/assets/images/reservedparam1.jpg)
