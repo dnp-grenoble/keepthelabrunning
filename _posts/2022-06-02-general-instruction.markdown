@@ -3,6 +3,7 @@ layout: post
 title:  "Setting up Experiments"
 date:   2022-06-02 10:18:27 +0200
 categories: jekyll update
+permalink: "/general-instruction/"
 author: "Subhradip Paul"
 ---
 
