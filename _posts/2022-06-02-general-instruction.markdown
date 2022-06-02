@@ -28,5 +28,7 @@ Here are some examples:
 
 ![Reserved Parameters](/docs/assets/images/reservedparam1.jpg)
 *Reserved Parameters (Fig 1)*
+
+
 ![Reserved Parameters](/docs/assets/images/reservedparam2.jpg)
 *Reserved Parameters (Fig 2)*
