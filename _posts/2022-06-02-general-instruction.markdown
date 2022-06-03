@@ -5,6 +5,7 @@ date:   2022-06-02 10:18:27 +0200
 categories: jekyll update
 permalink: "/general-instruction/"
 author: "Subhradip Paul"
+use-math: true
 ---
 
 **Some instructions about LAB Sequences**
