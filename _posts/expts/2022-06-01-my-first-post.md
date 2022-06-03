@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Setting up CP using LAB Sequence"
+title: "Setting up CP"
 permalink: "/cross-polarisation/"
 ---
 
