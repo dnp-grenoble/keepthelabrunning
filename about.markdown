@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+use-math: true
 ---
 
 This website is intended to make life easier in the lab.
