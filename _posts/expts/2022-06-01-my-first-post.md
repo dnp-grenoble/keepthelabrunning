@@ -19,6 +19,7 @@ In the LAB sequence follwowing parameters are important.
 - o1 : Put it at the centre of your $$^{13}C$$ spectrum.
 - o2 : Put it at the centre of your $$^{1}H$$ spectrum.
 
+### Pre-Saturation ### 
 Use presaturation if you are at low temperatures, or if your T1 is very long.
 
 ```jython
@@ -31,5 +32,58 @@ Use presaturation if you are at low temperatures, or if your T1 is very long.
 #endif
 ```
 
-Unless you specify -Dno_dat in the LAB sequence, pre saturation will be active by default.
+Unless you specify -Dno_sat in the LAB sequence, pre saturation will be active by default.
+Set l20 to 100, and d20 to 1 ms. This will make d10 = 0.5 ms.
+
+### CP Matching condition ###
+The proton power level is set by *pl22*. Set it to be around 50-60 kHz approximately. Optimise *pl1* so as to get the maximum sensitivity on rare nucleus.
+Please note these conditions change on the following situations generally:
+- Spinning Frequency (Important).
+- Temperature.
+- Sample.
+
+Adjust *p15* to get the maximum signal. *p15* is the contact time. It is set in microseconds.
+
+The code block in the LAB sequence is:
+``` jython
+1u pl2:f2 pl1:f1 			;preset pl12 for F2, pl1 for F1
+  trigg									;trigger for scope, 10 usec
+  (p3 ph1):f2						;1H 90 excitation pulse
+  0.3u pl22:f2					;set pl22 for CP on F2
+  (p15 ph2):f1 (p15:spf0 ph3):f2 	;CP with square or shape on F2
+```
+
+Generally we use a ramp pulse of 80-100 on 1H, but this can be varied in exceptional cases.
+
+### Echo ###
+
+This part of the sequence is important when you are doing DNP.
+
+``` jython
+#ifndef no_echo
+  1u pl11:f1	cpds1:f2 	;set pl11 on F1; start 1H decoupling for echo
+  d5									 	;tau
+  (p2 ph16):f1					;pi on X
+  d6										;tau, 1H decoupler off
+  0.5u do:f2					 	;1H decoupler off
+#endif
+```
+
+The sequence says that echo will be active always unless you use -Dno_scho in the zg_options.
+The delays d5 and d6 depends on the spinning frequency. **So it is very important to set cnst31 = MAS freq.**
+
+
+### Decoupling ###
+
+there are two decoupling sequences used in the lab sequence
+1. cpdprg1.
+2. cpdprg2.
+
+In general case, you can set either to SWf-TPPM (my recommendation) or SPINAL-64. The power level for these sequences are set by plw12.
+**Set plw12 so that it is more than 3 times the spinning frequency.**
+
+And set pcpd2 to be such that it corresponds to 180 degree rotation corresponding to plw12.
+
+
+
  
