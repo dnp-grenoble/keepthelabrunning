@@ -5,7 +5,7 @@ permalink: "/maslogging/"
 use-math: "true"
 ---
 
-# Logging of Spinning Related parameters #
+# Logging of MAS freq and pressures #
 
 1. Start Topspin
 2. Double-click on the *MAS spin rate*. It will open a window with the title 'MAS Pneumatic Unit Control'.
