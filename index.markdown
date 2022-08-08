@@ -5,4 +5,4 @@
 layout: home
 ---
 
-Please visit the [Catalogue](https://dnp-grenoble.github.io/keepthelabrunning/catalogue/) page as the posts are sorted and enlisted there in different categories.
+Please visit the [Catalogue](https://dnp-grenoble.github.io/keepthelabrunning/catalogue/) page. The posts are sorted and enlisted there in different categories.
