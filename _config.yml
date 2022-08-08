@@ -30,7 +30,7 @@ url: "https://dnp-grenoble.github.io/" # the base hostname & protocol for your s
 github_username:  dnp-grenoble
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 markdown: kramdown
 plugins:
   - jekyll-feed
