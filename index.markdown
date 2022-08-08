@@ -5,4 +5,4 @@
 layout: home
 ---
 
-Just testing
+Please visit the [Catalogue](https://dnp-grenoble.github.io/keepthelabrunning/catalogue/) page as the posts are sorted and enlisted there in different categories.
