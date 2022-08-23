@@ -17,3 +17,27 @@ use-math: "true"
 8. It will start running the script and at the end will write a file called *spin.log* on the desktop. 
 
 The spin.log file is deleted once you start running the script. So save it in another name if you want to keep it.
+
+``` sh
+#!/bin/bash
+rm -rf /home/$(whoami)/Desktop/spin.log
+cd /opt/topspin3.2/prog/curdir/$(whoami)
+echo -n "For how many hours > "
+read var1
+echo -n "Interval in seconds > "
+read var2
+var3=$(echo "scale=0; $var1*3600/$var2"|bc)
+echo $var3
+for (( i=1; i<=$var3; i++)) 
+do
+cat MasDebugServer.log | grep "freq=" >> temp.txt;
+my_var=$(tail -n 1 temp.txt);
+now=$(date +"%D %T")
+echo "$now $my_var"
+echo "$now $my_var" >> spin.log;
+sleep $var2; 
+echo $i;
+done
+cp spin.log /home/$(whoami)/Desktop/
+cp -rf /home/$(whoami)/Desktop/spin.log /home/$(whoami)/Desktop/spin_lasttime.log
+```
