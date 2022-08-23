@@ -30,10 +30,23 @@ In order to tune a probe, please follow the following steps:
 > **Do not exceed the maximum Voltage allowed by the Oscilloscope.**
 
 <p align="center">
+<figure>
 <img src="{{ "docs/assets/images/annotely_scope_howtoimage.jpg" | prepend: site.baseurl | prepend: site.url}}" width = "300" alt="Connections to probe and scope" />
+</figure>
 </p>
 
+
+<p align="center">
 <figure>
 <img src="{{ "docs/assets/images/tuned_probe.png" | prepend: site.baseurl | prepend: site.url}}" align="middle" width = "300" alt="Tuned probe" />
-<figcaption align="center"><b> Tuned probe </b></figcaption>
+<figcaption><b> Tuned probe </b></figcaption>
 </figure>
+</p>
+
+
+### Why is 20 dB, 100 times attenuation?
+
+$$ \Delta dB = 20 \log_{10}  \frac{P_{f,kHz}}{P_{i,kHz}} \\
+\newline
+\Delta dB = 20 \log_{10}  \sqrt{\frac{P_{f,W}}{P_{i,W}}} \\
+\text{with}, \; \Delta dB = -10, P_f = 0.01 P_i $$ 
