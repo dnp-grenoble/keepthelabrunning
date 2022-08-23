@@ -12,8 +12,8 @@ Experiments
 Manuals
 1. [Shimming.](https://dnp-grenoble.github.io/keepthelabrunning/shimming/)
 2. [Logging MAS Params.](https://dnp-grenoble.github.io/keepthelabrunning/maslogging/)
-3. [Tuning with Scope.]((https://dnp-grenoble.github.io/keepthelabrunning/tuningwithscope/))
-4. [Reviving Crashed Linux.]((https://dnp-grenoble.github.io/keepthelabrunning/syscrash/))
+3. [Tuning with Scope.](https://dnp-grenoble.github.io/keepthelabrunning/tuningwithscope/)
+4. [Reviving Crashed Linux.](https://dnp-grenoble.github.io/keepthelabrunning/syscrash/)
 
 
 DNP Issues
