@@ -13,7 +13,7 @@ In order to tune a probe, please follow the following steps:
 2. Say you want to tune proton, set the centre frequency to be 400.158###.
 3. Match and tune to the best possible scenario.
 4. Take the cable out from the back of the preamplifier, and connect a box filter (bandpass) to it.
-5. Now your preamplifier is out of the picture.
+5. Now your preamplifier is out-of-the-picture.
 6. Attach a bidirectional coupler.
 7. Note the value of attenuation on the bidirectional coupler. Generally this attenuation applied to both forward and backward direction.
 8. Attach another attenuation of 20 dB between the oscilloscope and the port of the bidirectional coupler. The port is the one where the RF is coming from the direction of the amplifier.
@@ -29,8 +29,9 @@ In order to tune a probe, please follow the following steps:
 
 > **Do not exceed the maximum Voltage allowed by the Oscilloscope.**
 
-<img src="{{ "docs/assets/images/annotely_scope_howtoimage.jpg" | prepend: site.baseurl | prepend: site.url}}" align="middle" width = "300" alt="Connections to probe and scope" />
-
+<p align="center">
+<img src="{{ "docs/assets/images/annotely_scope_howtoimage.jpg" | prepend: site.baseurl | prepend: site.url}}" width = "300" alt="Connections to probe and scope" />
+</p>
 
 <figure>
 <img src="{{ "docs/assets/images/tuned_probe.png" | prepend: site.baseurl | prepend: site.url}}" align="middle" width = "300" alt="Tuned probe" />
