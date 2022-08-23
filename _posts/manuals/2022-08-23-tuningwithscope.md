@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "High power tuning with Oscilloscope"
-permalink: "/syscrash/"
+permalink: "/tunewithscope/"
 use-math: "true"
 ---
 
