@@ -29,7 +29,7 @@ In order to tune a probe, please follow the following steps:
 
 > **Do not exceed the maximum Voltage allowed by the Oscilloscope.**
 
-<img src="{{ "docs/assets/images/annotely_scope_howtoimage.jpg" | prepend: site.baseurl | prepend: site.url}}" alt="Reserved Parameters" />
+<img src="{{ "docs/assets/images/annotely_scope_howtoimage.jpg" | prepend: site.baseurl | prepend: site.url}}" align = "centre" height = "200" width = "640" alt="Connections to probe and scope" />
 
 
 
