@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Logging Parameters of MAS in Asterix"
+title: "Logging Parameters of MAS"
 permalink: "/maslogging/"
 use-math: "true"
 ---
