@@ -33,12 +33,11 @@ In order to tune a probe, please follow the following steps:
 <figure>
 <img src="{{ "docs/assets/images/annotely_scope_howtoimage.jpg" | prepend: site.baseurl | prepend: site.url}}" width = "300" alt="Connections to probe and scope" />
 </figure>
-</p>
 
 
-<p align="center">
+
 <figure>
-<img src="{{ "docs/assets/images/tuned_probe.png" | prepend: site.baseurl | prepend: site.url}}" align="middle" width = "300" alt="Tuned probe" />
+<img src="{{ "docs/assets/images/tuned_probe.png" | prepend: site.baseurl | prepend: site.url}}" width = "300" alt="Tuned probe" />
 <figcaption><b> Tuned probe </b></figcaption>
 </figure>
 </p>
