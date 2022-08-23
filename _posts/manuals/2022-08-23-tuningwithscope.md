@@ -46,7 +46,8 @@ In order to tune a probe, please follow the following steps:
 
 ### Why is 20 dB, 100 times attenuation?
 
-$$ \Delta dB = 20 \log_{10}  \frac{P_{f,kHz}}{P_{i,kHz}} \\
-\newline
-\Delta dB = 20 \log_{10}  \sqrt{\frac{P_{f,W}}{P_{i,W}}} \\
-\text{with}, \; \Delta dB = -10, P_f = 0.01 P_i $$ 
+$$ \Delta dB = 20 \log_{10}  \frac{P_{f,kHz}}{P_{i,kHz}} $$
+
+$$\Delta dB = 20 \log_{10}  \sqrt{\frac{P_{f,W}}{P_{i,W}}} $$
+
+$$\text{with}, \; \Delta dB = -10, P_f = 0.01 P_i $$ 
