@@ -14,7 +14,7 @@ Connect a source of N<sub>2</sub> gas with pressure of about 0.5 bar to the inle
 
 ### Flushing the Probe
 
-When the flushing of the Dewar is going on, set Bearing pressure to 2000 mBar, Drive pressure to 2000 mBar and VT to 400 l/h, and put all the channels into **cooling** mode. This ensures that the warm gas passes through the lines and removes any moisture.
+When the flushing of the Dewar is going on, set Bearing pressure to 2000 mBar, Drive pressure to 2000 mBar and VT to 400 l/h, and put all the channels into **cooling** mode. This ensures that the warm gas passes through the lines in the chambers and removes any moistureS.
 
 ### Flush Insert/Eject
 
