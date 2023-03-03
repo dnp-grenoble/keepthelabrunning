@@ -14,11 +14,11 @@ Connect a source of N<sub>2</sub> gas with pressure of about 0.5 bar to the inle
 
 ### Flushing the Probe
 
-When the flushing of the Dewar is going on, set Bearing pressure to 2000 mBar, Drive pressure to 2000 mBar and VT to 400 l/h.
+When the flushing of the Dewar is going on, set Bearing pressure to 2000 mBar, Drive pressure to 2000 mBar and VT to 400 l/h, and put all the channels into **cooling** mode. This ensures that the warm gas passes through the lines and removes any moisture.
 
 ### Flush Insert/Eject
 
-Flush insert and eject lines without the sample catcher connected for about a minute. After the flushing of the Dewar is done, flush again for a minute.
+Flush insert and eject lines without the sample catcher connected for about a minute. This is done by doing a few insert eject cycles without a rotor. After the flushing of the Dewar is done, flush the insert/eject for a minute.
 
 ### Flushing chambers
 Log in as admin, and go to the configuration mode. In the manual option, fill the chambers and close the filling valve. Check that the pressure does not drop. This indicates that there is no leak etc in the chambers.
@@ -33,7 +33,7 @@ After flushing the lines, put the valves to bypass mode, reduce flows to be abou
 
 The Dewar is ready to be filled, and system is ready to be cooled down.
 
-Do not forget to fill chambers.
+Do not forget to fill chambers at the end.
 
 
 
